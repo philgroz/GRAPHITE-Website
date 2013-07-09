@@ -1,0 +1,42 @@
+/* GRAPHITE Website */
+/* Copyright Philipp Grozinger 2013 */
+
+/* General */
+html, body {margin:0px; padding:0px;}
+
+/* Text */
+p {}
+h1 {}
+h2 {}
+h3 {}
+
+/* Links */
+a {}
+a:hover {}
+a:active {}
+
+/* Navigation */
+nav {}
+nav ul {}
+nav ul li {}
+
+/* Table Layout */
+table.layout {}
+table.layout tr {}
+table.layout tr td {}
+
+/* Content Layout */
+section {}
+article {}
+
+/* Header */
+header {}
+
+/* Footer */
+footer {}
+
+/* GRAPHITE Logo */
+div.graphite.dark {background:url("graphite_dark.png"); background-size:100% 100%; height:20px; width:156px; float:left; opacity:0.8; transition:opacity 0.2s; -webkit-transition:opacity 0.2s;}
+div.graphite.dark:hover, div.graphite.dark:active {opacity:1;}
+div.graphite.light {background:url("graphite_light.png"); background-size:100% 100%; height:20px; width:156px; float:left; opacity:0.8; transition:opacity 0.2s; -webkit-transition:opacity 0.2s;}
+div.graphite.light:hover, div.graphite.light:active {opacity:1;}
