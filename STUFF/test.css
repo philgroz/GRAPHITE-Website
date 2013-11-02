@@ -1,0 +1,37 @@
+/* Copyright Philipp Grozinger GRAPHITE 2013 */
+/* GRAPHITE Website v1.0 */
+
+body {height:100%; background:#555555; margin:0px; background: #1e1e1e; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #1e1e1e 0%, #111111 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#1e1e1e), color-stop(100%,#111111)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #1e1e1e 0%,#111111 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #1e1e1e 0%,#111111 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #1e1e1e 0%,#111111 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #1e1e1e 0%,#111111 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1e1e', endColorstr='#111111',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+html {height:100%; color:#cccccc; font-family: 'Oxygen', sans-serif; font-weight:300;}
+div.main {width:100%; margin:0px auto;}
+header {background:#222222;}
+nav {height:100px; margin:0 auto; margin-bottom:0px; width:950px;}
+nav div.logo {padding:40px; height:20px; float:left;}
+nav div.logo img {height:20px; padding:0px;}
+nav {}
+nav ul {float:right; margin:0px; padding:0px;}
+nav ul li {display:block; height:16px; float:left; margin:0px; padding:42px 60px; font-size:16px; font-family: 'Coda', cursive; a {color:#aaaaaa; text-decoration:none;}}
+nav ul li:hover {
+	background:#1d1d1d;
+	cursor:pointer;
+	a {color:#ffffff;}
+}
+footer {background:#222222; margin-top:0px; padding:20px; font-size:10px; color:#888888;}
+h1, h2, h3, h4 {font-weight:300;}
+h1 {font-size:2em;}
+h3 {font-size:1.3em; color:#aaaaaa;}
+article {p, h1, h3 {opacity:.7; -webkit-transition:.8s;}; background:center; background-size:100%; padding:10px 30px; padding-right:60%; box-shadow:500px 0px 500px rgba(0,0,0,.8) inset; text-align:left; -webkit-transition:.2s;}
+article:hover {background-size:101%; cursor:pointer; p, h1, h3 {opacity:1;}}
+article p {color:#999999; font-size:14px; margin-bottom:2em;}
+section {margin:0px 0px; width:80%;}
+
+section.intro, section.subintro {width:100%;}
+section.intro article {box-shadow:none; background:#0a0a0a; padding:100px 0px; text-align:center; width:100%;}

@@ -1,0 +1,70 @@
+/* GRAPHITE Website */
+/* Copyright Philipp Grozinger 2013 */
+
+/* General */
+html, body {margin:0px; padding:0px;}
+
+/* Text */
+p {font-size:14px; font-family:helvetica; font-weight:100;}
+h1, h2, h3 {font-family: 'Bree Serif', serif;}
+
+/* Links */
+a {font-size:18px; text-decoration:none;}
+a:hover {}
+a:active {}
+
+/* Navigation */
+nav {margin:0px; padding:20px 0px; font-family: 'Bree Serif', serif;}
+nav ul {margin:0px; padding:0px;}
+nav ul li {margin:20px; display:inline;}
+
+/* Table Layout */
+table.layout {width:900px; margin:0 auto;}
+table.layout tr {}
+table.layout tr td {width:50%;}
+
+/* Content Layout */
+section {}
+article {}
+
+/* Header */
+header {}
+
+/* Footer */
+footer {}
+
+/* GRAPHITE Logo */
+div.graphite.dark {background:url("graphite_dark.png"); background-size:100% 100%; height:20px; width:156px; float:left; opacity:0.8; transition:opacity 0.2s; -webkit-transition:opacity 0.2s;}
+div.graphite.dark:hover, div.graphite.dark:active {opacity:1;}
+div.graphite.light {background:url("graphite_light.png"); background-size:100% 100%; height:20px; width:156px; float:left; opacity:0.8; transition:opacity 0.2s; -webkit-transition:opacity 0.2s;}
+div.graphite.light:hover, div.graphite.light:active {opacity:1;}
+
+
+
+/* Colours */
+p.dark {color:#505050;}
+h1.dark {color:#0a0a0a;}
+h2.dark {color:#1e1e1e;}
+h3.dark {color:#282828;}
+a.dark {color:#484848;}
+a.dark:hover {color:#3c3c3c;}
+a.dark:active {color:#323232;}
+
+p.light {color:;}
+h1.light {color:;}
+h2.light {color:;}
+h3.light {color:;}
+a.light {color:;}
+a.light:hover {color:;}
+a.light:active {color:;}
+
+
+
+
+
+
+
+
+
+
+
